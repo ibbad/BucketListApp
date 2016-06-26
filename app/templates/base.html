@@ -1,0 +1,25 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+    Bucket List
+{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+<meta charset="UTF-8">
+    <title>Bucket List App</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css"
+          rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    {% block page_content %}
+        <!-- Page content comes here -->
+    {% endblock %}
+    <footer class="footer">
+            <p>&copy; 2016</p>
+    </footer>
+{% endblock %}
